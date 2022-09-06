@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "OTBgdB3unOJ6wKVUlaWbp16RHfU3UwoqttBNGbm6fL/KI7IxQtPDMnE/Ki8fx0knxIbAFhMwY1ecIxfgqWHtYA==",
+  "dgSpecHash": "mH72m1CIcH+YqEvJMpgIOpci29uKfnxSIzEPwdP5Dix3tUyX7+A+BDIBKS0VjDZiBa+4zZC0xQZQfSLxdhl6Qw==",
   "success": true,
   "projectFilePath": "C:\\Users\\emile\\source\\repos\\CMPG323_PROJECT2\\CMPG-323-Project-2---32402287\\WebApplication\\WebApplication\\WebApplication.csproj",
   "expectedPackageFiles": [
@@ -103,8 +103,7 @@
     "C:\\Users\\emile\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\emile\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\emile\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\emile\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\emile\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.27\\microsoft.netcore.app.host.win-x64.3.1.27.nupkg.sha512"
+    "C:\\Users\\emile\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }
