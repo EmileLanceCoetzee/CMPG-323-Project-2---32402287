@@ -29,7 +29,7 @@ namespace WebApplication
         {
             services.AddControllers();
             services.AddDbContext<ConnectedOfficeContext>(options => options.UseSqlServer("name=ConnectionStrings:DefaultConnection"));
-            services.AddSwaggerGen(options => { options.SwaggerDoc("v2", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "MyTest Demo API", Version = "v2", Description = "Test demo for students", }); });
+            services.AddSwaggerGen(options => { options.SwaggerDoc("v2", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "32402287 CMPG 323 Project 2", Version = "v1", Description = "This is my API for project 2", }); });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
