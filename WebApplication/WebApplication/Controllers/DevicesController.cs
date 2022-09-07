@@ -42,8 +42,7 @@ namespace WebApplication.Controllers
         }
 
         // PUT: api/Devices/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for
-        // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
+
         [HttpPut("{id}")]
         public async Task<IActionResult> PutDevice(Guid id, Device device)
         {
@@ -74,8 +73,7 @@ namespace WebApplication.Controllers
         }
 
         // POST: api/Devices
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for
-        // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
+        
         [HttpPost]
         public async Task<ActionResult<Device>> PostDevice(Device device)
         {

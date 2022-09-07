@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WebApplication.Models;
+using WebApplication.Controllers;
 
 namespace WebApplication.Controllers
 {
@@ -42,8 +43,7 @@ namespace WebApplication.Controllers
         }
 
         // PUT: api/Zones/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for
-        // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
+
         [HttpPut("{id}")]
         public async Task<IActionResult> PutZone(Guid id, Zone zone)
         {
@@ -74,8 +74,7 @@ namespace WebApplication.Controllers
         }
 
         // POST: api/Zones
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for
-        // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
+        
         [HttpPost]
         public async Task<ActionResult<Zone>> PostZone(Zone zone)
         {
